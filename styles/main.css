@@ -227,3 +227,48 @@ fieldset legend{
 #paymentmethod input{
 	margin: 0 0 0 45px;
 }
+
+#ccinfo label {
+	display: inline-block;
+	width: 200px;
+	text-align: right;
+	margin: 0 0 10px 0;
+}
+
+#ccinfo #expmonth{
+	width: 7em;
+}
+
+#ccinfo #expyear{
+	width: 5em;
+}
+
+.sub-button{
+	text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+
+.sub-button input[type=submit]{
+	width: 10em;
+}
+
+.sub-button input[type=reset]{
+	width: 10em;
+}
+
+fieldset legend{
+	font-size: 85%;
+}
+
+fieldset input{
+	font-size: 90%;
+}
+
+fieldset select{
+	font-size: 90%;
+}
+
+fieldset :required{
+	border: 1px solid #e8b417;	
+}
