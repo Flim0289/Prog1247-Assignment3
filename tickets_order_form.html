@@ -38,10 +38,26 @@
 			<main>
 				<h1>Order Event Tickets</h1>
 				<!-- The form starts here... -->
-				<form name="order_form"   action="./place_order.html" method="post">
-					<a href="./place_order.html">
-						<button type="button">Submit</button>
-					</a>
+				<form action="./place_order.html" name="order_form" method="POST" >
+					<Fieldset id="memberinfo" title="Member Information">
+						<legend>Member Information</legend>
+						<label for="email" >E-mail: </label>
+						<input type="email"  id="email" name="email"   title="e-mail format (aaaa@gmail.com)" autofocus required><br>
+						<label for="fname">First Name: </label>
+						<input type="text" id="fname" name="fname" title="Text format" required><br>
+						<label for="lname">Last Name: </label>
+						<input type="text" id="lname" name="lname" title="text format" required><br>
+						<label for="address">Address: </label>
+						<input type="text" id="address" name="address" title="text format"><br>
+						<label for="city"> City: </label>
+						<input type="text"  id="city" name="city" title="text format" required><br>
+						<label for="province">Province: </label>
+						<input type="text" id="province" name="province" placeholder="2-character code" maxlength="2" title="Accepts only 2 characters" required><br>
+						<label for="postalcode"> Postal Code: </label>
+						<input type="text"  id="postalcode" name="postalcode" placeholder="6 characters" maxlength="6" title="Accepts 6 characters" required><br>
+						<label for="phonenumber">Phone Number: </label>
+						<input type="tel" id="phonenumber" name="phonenumber" placeholder="999-999-9999" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" title="Phone format (999-999-9999)" required><br>
+					</Fieldset>
 					
 				</form>
 			</main>
