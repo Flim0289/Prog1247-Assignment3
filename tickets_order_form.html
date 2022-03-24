@@ -58,7 +58,24 @@
 						<label for="phonenumber">Phone Number: </label>
 						<input type="tel" id="phonenumber" name="phonenumber" placeholder="999-999-9999" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" title="Phone format (999-999-9999)" required><br>
 					</Fieldset>
-					
+					<Fieldset id="orderinfo" title="Order Information">
+						<legend>Ordering Information</legend>
+						<label for="event">Event: </label>
+							<select name="event" id="event" title="Choose one event">
+								<option value="CDcontest">Cookie Decoration Contest</option>
+								<option value="TDcontest">Tree Decoration Contest</option>
+								<option value="GLridealong">Gift of Light Ride-Along</option>
+								<option value="BFsanta">Breakfast with Santa</option>
+							</select><br>
+						<label for="ordertype">Order Type:  </label>
+							<select name="ordertype" id="ordertype" title="Choose one order type">
+								<option value="memberpackage">Member Package</option>
+								<option value="donorpackage">Donor Package</option>
+								<option value="singleticket">Single Ticket</option>
+							</select><br>
+						<label for="ticketnumber">Number of Tickets: </label>
+						<input type="number" id="ticketnumber" name="ticketnum" placeholder="Number of single tickets" title="Choose how many ticket would you buy." ><br>
+					</fieldset>
 				</form>
 			</main>
 			
