@@ -83,6 +83,48 @@
 						<input type="radio" id="creditcard" name="payment" value="creditcard" title="Choose how do you want to pay.">
 						<label for="creditcard"> Credit Card </label>
 					</fieldset>
+					<fieldset id="ccinfo" title="Credit Card Information">
+						<legend>Credit Card Information</legend>
+						<label for="cardtype">Card Type: </label>
+						<select name="cardtype" id="cardtype">
+							<option value="visa">Visa</option>
+							<option value="mastercard">Master Card</option>
+							<option value="discover">Discover</option>
+						</select><br>
+						<label for="cardnumber">Card Number</label>
+						<input type="text" id="cardnumber" name="cardnumber" placeholder="16 digits" maxlength="16" title="Credit Card Number (16-digits)" required><br>
+						<label for="expmonth">Expiration Date: </label>
+						<select name="month" id="expmonth" title="Month">
+							<option value="january">January</option>
+							<option value="february">February</option>
+							<option value="march">March</option>
+							<option value="april">April</option>
+							<option value="may">May</option>
+							<option value="june">June</option>
+							<option value="july">July</option>
+							<option value="august">August</option>
+							<option value="september">September</option>
+							<option value="october">October</option>
+							<option value="november">November</option>
+							<option value="december">December</option>
+						</select>
+						<select name="year" id="expyear" title="Year">
+							<option value="2021">2021</option>
+							<option value="2022">2022</option>
+							<option value="2023">2023</option>
+							<option value="2024">2024</option>
+							<option value="2025">2025</option>
+							<option value="2026">2026</option>
+							<option value="2027">2027</option>
+						</select>
+					</fieldset>
+					<fieldset id="submitorder">
+						<legend>Submit Your Order</legend>
+						<div class="sub-button">
+							<input type="Submit" value="Submit">
+							<input type="reset"   value="Reset Fields">
+						</div>
+					</fieldset>
 				</form>
 			</main>
 			
