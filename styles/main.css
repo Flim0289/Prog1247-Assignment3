@@ -182,3 +182,21 @@ footer p {
 	font-size: 80%;
 	text-align: center;
 }
+
+/* Assignment 3 start here*/
+
+input[type=text]{
+	width: 15em;
+}
+
+input[type=number]{
+	width: 15em;
+}
+
+input[type=email]{
+	width: 15em;
+}
+
+input[type=tel]{
+	width: 15em;
+}
