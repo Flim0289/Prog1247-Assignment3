@@ -200,3 +200,18 @@ input[type=email]{
 input[type=tel]{
 	width: 15em;
 }
+
+select{
+	width: 15em;
+}
+fieldset legend{
+	color: grey;
+	font-weight: bold;
+}
+
+#memberinfo label {
+	display: inline-block;
+	width: 200px;
+	text-align: right;
+	margin: 0 0 10px 0;
+}
