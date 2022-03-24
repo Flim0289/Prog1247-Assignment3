@@ -215,3 +215,15 @@ fieldset legend{
 	text-align: right;
 	margin: 0 0 10px 0;
 }
+
+
+#orderinfo label {
+	display: inline-block;
+	width: 200px;
+	text-align: right;
+	margin: 0 0 10px 0;
+}
+
+#paymentmethod input{
+	margin: 0 0 0 45px;
+}
